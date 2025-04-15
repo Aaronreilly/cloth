@@ -16,7 +16,7 @@ class ClothingItem:
         if self.stock < 0:
             self.stock = 0
             print(f"Warning: Stock for {self.name} cannot be negative. Stock set to 0.")
-
+# func for customer 
 class Customer:
     def __init__(self, customer_id, name, contact):
         self.customer_id = customer_id
