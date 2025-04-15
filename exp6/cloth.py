@@ -25,7 +25,7 @@ class Customer:
 
     def __str__(self):
         return f"ID: {self.customer_id}, Name: {self.name}, Contact: {self.contact}"
-
+# Function for purchase
 class Purchase:
     def __init__(self, purchase_id, customer, items):
         self.purchase_id = purchase_id
